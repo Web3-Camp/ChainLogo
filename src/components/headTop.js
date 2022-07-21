@@ -13,7 +13,7 @@ export default function HeaderTop() {
         <Container>
             <Row>
                 <Col className="headerTxt" md={8} xs={12}>
-                    <Alink href="/">Crypto Logos</Alink></Col>
+                    <Alink href="/">Logo Collection</Alink></Col>
                 <Col className="headetRht" md={4} xs={12}>&copy; Web3 Camp</Col>
             </Row>
         </Container>

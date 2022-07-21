@@ -106,10 +106,10 @@ export default function Detailpage(){
                             symbol: {detailInfo.symbol}
                         </SymbolBox>
                         <div>
-                            <a href={require(`../assets/downImg/${detailInfo.png}`)} target="_blank">
+                            <a href={require(`../assets/downImg/${detailInfo.png}`)} target="_blank"  rel="noreferrer" >
                                 <Button variant="flat" className="btnTop">Download PNG</Button>
                             </a>
-                            <a href={require(`../assets/downSVG/${detailInfo.svg}`)} target="_blank">
+                            <a href={require(`../assets/downSVG/${detailInfo.svg}`)} target="_blank"  rel="noreferrer" >
                                 <Button variant="flat" >Download SVG</Button>
                             </a>
                         </div>

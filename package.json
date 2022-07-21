@@ -23,7 +23,7 @@
       "react-app/jest"
     ],
     "rules": {
-      " array-callback-return": "off",
+      "array-callback-return": "off",
       "react-hooks/exhaustive-deps": "off"
     }
   },

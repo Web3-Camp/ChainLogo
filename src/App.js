@@ -36,15 +36,16 @@ const CardBox = styled(Card)`
 
 function App() {
   return (
+      <Router>
       <MainContent>
         <HeaderTop />
         <MainBox>
           <BgBox>
             <RowBox>
               <Col md={12} xs={12}> <CardBox body>
-                  <Router>
+
                       <RouterLink />
-                  </Router>
+
               </CardBox></Col>
             </RowBox>
           </BgBox>
@@ -52,6 +53,7 @@ function App() {
         <FooterBox />
         {/*<GlobalStyle />*/}
       </MainContent>
+      </Router>
   );
 }
 

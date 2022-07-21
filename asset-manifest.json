@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ChainLogo/static/css/main.84487ea8.css",
-    "main.js": "/ChainLogo/static/js/main.62ab130c.js",
+    "main.js": "/ChainLogo/static/js/main.97d45b2e.js",
     "static/media/foam-foam.png": "/ChainLogo/static/media/foam-foam.e8f9e90248287b534c5a.png",
     "static/media/foam-foam.svg": "/ChainLogo/static/media/foam-foam.64e5c5b029558edccfe5.svg",
     "static/media/enzyme-mln.png": "/ChainLogo/static/media/enzyme-mln.0297149c8c4006e6e869.png",
@@ -1106,10 +1106,10 @@
     "static/media/waves-waves.svg": "/ChainLogo/static/media/waves-waves.6b900b06eff420b87824.svg",
     "static/media/vite-vite.svg": "/ChainLogo/static/media/vite-vite.18199d8cdf2cacc259e5.svg",
     "main.84487ea8.css.map": "/ChainLogo/static/css/main.84487ea8.css.map",
-    "main.62ab130c.js.map": "/ChainLogo/static/js/main.62ab130c.js.map"
+    "main.97d45b2e.js.map": "/ChainLogo/static/js/main.97d45b2e.js.map"
   },
   "entrypoints": [
     "static/css/main.84487ea8.css",
-    "static/js/main.62ab130c.js"
+    "static/js/main.97d45b2e.js"
   ]
 }

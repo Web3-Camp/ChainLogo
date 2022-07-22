@@ -1,4 +1,4 @@
-# Crypto Logos
+# Logo Collection
 
 High Quality Cryptocurrency Logos
 

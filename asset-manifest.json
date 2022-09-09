@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LogoCollection/static/css/main.84487ea8.css",
-    "main.js": "/LogoCollection/static/js/main.3f698b70.js",
+    "main.css": "/LogoCollection/static/css/main.9bd7a35e.css",
+    "main.js": "/LogoCollection/static/js/main.67acb41c.js",
     "static/media/foam-foam.png": "/LogoCollection/static/media/foam-foam.e8f9e90248287b534c5a.png",
     "static/media/foam-foam.svg": "/LogoCollection/static/media/foam-foam.64e5c5b029558edccfe5.svg",
     "static/media/enzyme-mln.png": "/LogoCollection/static/media/enzyme-mln.0297149c8c4006e6e869.png",
@@ -367,7 +367,6 @@
     "static/media/basic-attention-token-bat.png": "/LogoCollection/static/media/basic-attention-token-bat.e7deb643372daf720fe0.png",
     "static/media/lykke-lkk.png": "/LogoCollection/static/media/lykke-lkk.6d6db8d386342e6c8749.png",
     "static/media/medibloc-med.png": "/LogoCollection/static/media/medibloc-med.3ad4e314244821f0c2ae.png",
-    "static/media/tether-usdt.png": "/LogoCollection/static/media/tether-usdt.61bd32665b304273aec2.png",
     "static/media/blocktix-tix.png": "/LogoCollection/static/media/blocktix-tix.d3606efc66f9962ac48f.png",
     "static/media/polis-polis.png": "/LogoCollection/static/media/polis-polis.1a2eb2554369430cd29c.png",
     "static/media/insight-chain-inb.png": "/LogoCollection/static/media/insight-chain-inb.4cecf20f3b8e7b6efe19.png",
@@ -426,6 +425,7 @@
     "static/media/agrello-delta-dlt.png": "/LogoCollection/static/media/agrello-delta-dlt.770773e4b864c3f082dc.png",
     "static/media/braintrust-btrst.png": "/LogoCollection/static/media/braintrust-btrst.034527ea6e1e83126621.png",
     "static/media/hush-hush.png": "/LogoCollection/static/media/hush-hush.4aca9ad1ed9a0c4e1c98.png",
+    "static/media/tether-usdt.png": "/LogoCollection/static/media/tether-usdt.1ac9a5ea8c7a29631fb8.png",
     "static/media/fox-token-fox.png": "/LogoCollection/static/media/fox-token-fox.3c17e069ba7a02373cd3.png",
     "static/media/syntropy-noia.png": "/LogoCollection/static/media/syntropy-noia.5ed50271e6202fa2c0fb.png",
     "static/media/coinloan-clt.png": "/LogoCollection/static/media/coinloan-clt.f99efc3d717975912700.png",
@@ -1097,11 +1097,11 @@
     "static/media/ark-ark.svg": "/LogoCollection/static/media/ark-ark.2d339e2a4ed1a68667fc.svg",
     "static/media/waves-waves.svg": "/LogoCollection/static/media/waves-waves.6b900b06eff420b87824.svg",
     "static/media/vite-vite.svg": "/LogoCollection/static/media/vite-vite.18199d8cdf2cacc259e5.svg",
-    "main.84487ea8.css.map": "/LogoCollection/static/css/main.84487ea8.css.map",
-    "main.3f698b70.js.map": "/LogoCollection/static/js/main.3f698b70.js.map"
+    "main.9bd7a35e.css.map": "/LogoCollection/static/css/main.9bd7a35e.css.map",
+    "main.67acb41c.js.map": "/LogoCollection/static/js/main.67acb41c.js.map"
   },
   "entrypoints": [
-    "static/css/main.84487ea8.css",
-    "static/js/main.3f698b70.js"
+    "static/css/main.9bd7a35e.css",
+    "static/js/main.67acb41c.js"
   ]
 }

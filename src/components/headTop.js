@@ -1,12 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
-import styled from "styled-components";
 import LogoImg from "../assets/web3camp.png";
-
-const Alink = styled.a`
-    text-decoration: none;
-  color: #666666;
-`
 
 
 export default function HeaderTop() {

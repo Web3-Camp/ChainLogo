@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LogoCollection/static/css/main.c2cab247.css",
-    "main.js": "/LogoCollection/static/js/main.517790d5.js",
+    "main.js": "/LogoCollection/static/js/main.37f120d1.js",
     "static/media/foam-foam.png": "/LogoCollection/static/media/foam-foam.e8f9e90248287b534c5a.png",
     "static/media/foam-foam.svg": "/LogoCollection/static/media/foam-foam.64e5c5b029558edccfe5.svg",
     "static/media/enzyme-mln.png": "/LogoCollection/static/media/enzyme-mln.0297149c8c4006e6e869.png",
@@ -1099,10 +1099,10 @@
     "static/media/waves-waves.svg": "/LogoCollection/static/media/waves-waves.6b900b06eff420b87824.svg",
     "static/media/vite-vite.svg": "/LogoCollection/static/media/vite-vite.18199d8cdf2cacc259e5.svg",
     "main.c2cab247.css.map": "/LogoCollection/static/css/main.c2cab247.css.map",
-    "main.517790d5.js.map": "/LogoCollection/static/js/main.517790d5.js.map"
+    "main.37f120d1.js.map": "/LogoCollection/static/js/main.37f120d1.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.517790d5.js"
+    "static/js/main.37f120d1.js"
   ]
 }

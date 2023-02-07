@@ -8,6 +8,9 @@ const Box = styled.div`
     padding: 60px;
     height: 100%;
   flex-grow: 1;
+  background: #FFFFFF;
+  border-radius: 20px;
+  border: 1px solid #EDEFF0;
 `
 
 const TitleBox  = styled.div`

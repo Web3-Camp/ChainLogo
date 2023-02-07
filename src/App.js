@@ -4,6 +4,7 @@ import HeaderTop from "./components/headTop";
 import FooterBox from "./components/footerBox";
 import { HashRouter as Router } from 'react-router-dom'
 import RouterLink from "./router/router";
+import GloablStyle from "./GloablStyle";
 
 const MainContent = styled.div`
   display: flex;
@@ -27,11 +28,11 @@ const RowBox = styled(Row)`
   
 `
 
-const CardBox = styled(Card)`
-  border:0;
-  box-shadow: 0 0 5px #ccc;
-  border-radius: 6px;
-  height: 100%;
+const CardBox = styled.div`
+  //border:0;
+  //box-shadow: 0 0 5px #ccc;
+  //border-radius: 6px;
+  //height: 100%;
 `
 
 function App() {
@@ -42,16 +43,16 @@ function App() {
         <MainBox>
           <BgBox>
             <RowBox>
-              <Col md={12} xs={12}> <CardBox body>
-
-                      <RouterLink />
+              <Col md={12} xs={12}>
+                  <CardBox>
+                  <RouterLink />
 
               </CardBox></Col>
             </RowBox>
           </BgBox>
         </MainBox>
         <FooterBox />
-        {/*<GlobalStyle />*/}
+        <GloablStyle />
       </MainContent>
       </Router>
   );

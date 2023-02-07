@@ -1,19 +1,27 @@
 import styled from "styled-components";
 import ListJson from "../json/detail.json";
-import { FloatingLabel, Form} from 'react-bootstrap';
+import { FloatingLabel, Form,Container} from 'react-bootstrap';
 import {useEffect, useState} from "react";
 import { useNavigate } from "react-router-dom";
-
+import LogoCollection from "../assets/cryptologs-black.png"
 
 const Box = styled.div`
-  padding: 20px;
+
+`
+
+const CardBox = styled.div`
+  background: #FFFFFF;
+  border-radius: 20px;
+  border: 1px solid #EDEFF0;
+  padding: 30px;
 `
 
 const UlBox = styled.ul`
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
   li{
-    width: 16%;
+    width: 25%;
     text-align: center;
     margin-bottom: 40px;
     cursor: pointer;
@@ -32,8 +40,45 @@ const UlBox = styled.ul`
   }
 `
 
+const ContentBox = styled(Container)`
+    margin: 10px auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
+const Lft = styled.div`
+    display: flex;
+  align-items: center;
+  margin-left: -20px;
+  .imgBox{
+    width: 96px;
+    height: 96px;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #EDEFF0;
+    padding: 13px;
+    margin-right: 16px;
+    box-sizing: border-box;
+    img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+`
+
+const TitleBox = styled.div`
+  font-family: Helvetica;
+  font-size: 16px;
+  .tit{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+  }
+`
+
 const SearchBox = styled.div`
-    margin-bottom: 80px;
+  margin: 0 -20px ;
+  width: 40%;
 `
 
 export default function List(){
@@ -73,28 +118,40 @@ export default function List(){
     }
 
     return <Box>
-        <SearchBox>
-            <FloatingLabel
-                controlId="floatingInput"
-                label="Search logo"
-                className="mb-3"
-            >
-                <Form.Control type="text" placeholder="Search" value={logoName} onChange={(e)=>handleChange(e)}/>
-            </FloatingLabel>
-        </SearchBox>
-        <UlBox>
-            {
-                currentList.map((item,index)=>( <li key={index} onClick={()=>handleClick(index)}>
-                    <div className="imgBox">
-                        {/*<img src={require(item.png).default} alt=""/>*/}
-                        <img src={require(`../assets/downImg/${item.png}`)} alt=""/>
-                    </div>
-                    <div>
-                        {item.name}-{item.symbol}
-                    </div>
-                </li>))
-            }
+        <ContentBox>
+            <Lft>
+                <div className="imgBox"><img src={LogoCollection} alt=""/></div>
+                <TitleBox>
+                    <div className="tit">Logo Collection</div>
+                    <div>High Quality Cryptocurrency Logos</div>
+                </TitleBox>
+            </Lft>
+            <SearchBox>
+                <FloatingLabel
+                    controlId="floatingInput"
+                    label="Search logo"
+                    className="mb-3"
+                >
+                    <Form.Control type="text" placeholder="Search" value={logoName} onChange={(e)=>handleChange(e)}/>
+                </FloatingLabel>
+            </SearchBox>
+        </ContentBox>
 
-        </UlBox>
+        <CardBox>
+            <UlBox>
+                {
+                    currentList.map((item,index)=>( <li key={index} onClick={()=>handleClick(index)}>
+                        <div className="imgBox">
+                            {/*<img src={require(item.png).default} alt=""/>*/}
+                            <img src={require(`../assets/downImg/${item.png}`)} alt=""/>
+                        </div>
+                        <div>
+                            {item.name}-{item.symbol}
+                        </div>
+                    </li>))
+                }
+
+            </UlBox>
+        </CardBox>
     </Box>
 }

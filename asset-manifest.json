@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LogoCollection/static/css/main.9bd7a35e.css",
-    "main.js": "/LogoCollection/static/js/main.67acb41c.js",
+    "main.css": "/LogoCollection/static/css/main.c2cab247.css",
+    "main.js": "/LogoCollection/static/js/main.517790d5.js",
     "static/media/foam-foam.png": "/LogoCollection/static/media/foam-foam.e8f9e90248287b534c5a.png",
     "static/media/foam-foam.svg": "/LogoCollection/static/media/foam-foam.64e5c5b029558edccfe5.svg",
     "static/media/enzyme-mln.png": "/LogoCollection/static/media/enzyme-mln.0297149c8c4006e6e869.png",
@@ -424,6 +424,7 @@
     "static/media/certik-ctk.png": "/LogoCollection/static/media/certik-ctk.6de2624e76511fbd6beb.png",
     "static/media/agrello-delta-dlt.png": "/LogoCollection/static/media/agrello-delta-dlt.770773e4b864c3f082dc.png",
     "static/media/braintrust-btrst.png": "/LogoCollection/static/media/braintrust-btrst.034527ea6e1e83126621.png",
+    "static/media/cryptologs-black.png": "/LogoCollection/static/media/cryptologs-black.54c221072e0fa5727e88.png",
     "static/media/hush-hush.png": "/LogoCollection/static/media/hush-hush.4aca9ad1ed9a0c4e1c98.png",
     "static/media/tether-usdt.png": "/LogoCollection/static/media/tether-usdt.1ac9a5ea8c7a29631fb8.png",
     "static/media/fox-token-fox.png": "/LogoCollection/static/media/fox-token-fox.3c17e069ba7a02373cd3.png",
@@ -948,7 +949,6 @@
     "static/media/vesper-vsp.svg": "/LogoCollection/static/media/vesper-vsp.d467aa197f81b0eaad05.svg",
     "static/media/hive-hive.svg": "/LogoCollection/static/media/hive-hive.e539ae86a4b024f8a349.svg",
     "static/media/theta-network-theta.svg": "/LogoCollection/static/media/theta-network-theta.e615c7eb6069f29c1b59.svg",
-    "index.html": "/LogoCollection/index.html",
     "static/media/digital-reserve-currency-drc.svg": "/LogoCollection/static/media/digital-reserve-currency-drc.130850fc2b99adf06266.svg",
     "static/media/masari-msr.svg": "/LogoCollection/static/media/masari-msr.b6ea3b97aac25a9998e8.svg",
     "static/media/pinkcoin-pink.svg": "/LogoCollection/static/media/pinkcoin-pink.50c844dd0fab55a2ee3f.svg",
@@ -957,6 +957,7 @@
     "static/media/tomochain-tomo.svg": "/LogoCollection/static/media/tomochain-tomo.73fd5744db5db50266c1.svg",
     "static/media/fantom-ftm.svg": "/LogoCollection/static/media/fantom-ftm.3f8c71bb709ec37d4e3b.svg",
     "static/media/near-protocol-near.svg": "/LogoCollection/static/media/near-protocol-near.136739bacfacfa1a2685.svg",
+    "index.html": "/LogoCollection/index.html",
     "static/media/v-systems-vsys.svg": "/LogoCollection/static/media/v-systems-vsys.76a2f8de224f3cc01a91.svg",
     "static/media/klaytn-klay.svg": "/LogoCollection/static/media/klaytn-klay.1a88abd3eee2951b2cc4.svg",
     "static/media/beanstalk-bean.svg": "/LogoCollection/static/media/beanstalk-bean.a55c686c16d340e96ffe.svg",
@@ -1097,11 +1098,11 @@
     "static/media/ark-ark.svg": "/LogoCollection/static/media/ark-ark.2d339e2a4ed1a68667fc.svg",
     "static/media/waves-waves.svg": "/LogoCollection/static/media/waves-waves.6b900b06eff420b87824.svg",
     "static/media/vite-vite.svg": "/LogoCollection/static/media/vite-vite.18199d8cdf2cacc259e5.svg",
-    "main.9bd7a35e.css.map": "/LogoCollection/static/css/main.9bd7a35e.css.map",
-    "main.67acb41c.js.map": "/LogoCollection/static/js/main.67acb41c.js.map"
+    "main.c2cab247.css.map": "/LogoCollection/static/css/main.c2cab247.css.map",
+    "main.517790d5.js.map": "/LogoCollection/static/js/main.517790d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bd7a35e.css",
-    "static/js/main.67acb41c.js"
+    "static/css/main.c2cab247.css",
+    "static/js/main.517790d5.js"
   ]
 }

@@ -49,7 +49,7 @@ const ContentBox = styled(Container)`
 const Lft = styled.div`
     display: flex;
   align-items: center;
-  margin-left: -20px;
+  //margin-left: -20px;
   .imgBox{
     width: 96px;
     height: 96px;
@@ -77,7 +77,7 @@ const TitleBox = styled.div`
 `
 
 const SearchBox = styled.div`
-  margin: 0 -20px ;
+  margin: 0 ;
   width: 40%;
 `
 
